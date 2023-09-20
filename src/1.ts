@@ -16,4 +16,13 @@ class Student {
   }
 }
 
+//////////////////////
+class Student2 {
+  constructor(
+    public name: string,
+    public age: number,
+    public grade: string
+  ) {}
+}
+
 export {};
