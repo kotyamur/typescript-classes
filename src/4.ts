@@ -30,7 +30,7 @@ abstract class House {
       this.tenants.push(obP);
     }
   }
-  abstract openDoor(objKey: Key);
+  abstract openDoor(objKey: Key): void;
 }
 
 class MyHouse extends House {
